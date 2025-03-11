@@ -10,12 +10,6 @@ This script uses Selenium and Beautiful Soup to scrape the CIA World Factbook fo
 
 The goal is to create a database that allows users to easily compare/contrast different countries' performance in these areas to make isolating factors for success easier.
 
-## Dependencies
-- [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
-- [selenium](https://pypi.org/project/selenium/)
-- [webdriver-manager](https://pypi.org/project/webdriver-manager/)
-- [requests](https://pypi.org/project/requests/)
-
 ## How it Works
 In order to get the links to able to scrape ranking data from every country, Selenium is used to open a chrome tab for the CIA World Factbook [Countries Page](https://www.cia.gov/the-world-factbook/countries/) and selects the "All" button in the dropdown so that all the partial links can be scraped by Beautiful Soup. This is all handled by the links_get() function.
 
