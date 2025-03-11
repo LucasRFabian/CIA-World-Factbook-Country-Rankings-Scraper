@@ -1,5 +1,5 @@
 # CIA World Factbook Country Rankings Scraper
-This script uses Selenium and Beautiful Soup to scrape the CIA World Factbook for certain ranking information. Specifically, this script collects seven unique ranking metrics:
+This script uses Selenium and Beautiful Soup to scrape the [CIA World Factbook](https://www.cia.gov/the-world-factbook/) for certain ranking information. Specifically, this script collects seven unique ranking metrics:
 1. Area
 2. Population
 3. Median Age
